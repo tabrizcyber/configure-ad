@@ -193,7 +193,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
   <img
-    src="https://github.com/tabrizcyber/images/blob/main/ipconfigAll.PNG"
+    src="https://github.com/tabrizcyber/images/blob/main/joinClient1todomain.JPG"
     height="80%"
     width="80%"
     alt="Disk Sanitization Steps"
