@@ -167,7 +167,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>
   <i>
     <strong>
-      Here I'm installing ad within the network manager, which is straight forward process. We just have to create new forest, and I called mine as a mydomain.com.
+      Here I'm installing ad within the network manager, which is straight forward process. We
+      just have to create new forest, and I called mine as a mydomain.com.
     </strong>
   </i>
 </p>
@@ -184,12 +185,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>
   <i>
     <strong>
-      Here I've create few folders as _EMPLOYEE and etc. After I created new user Tabriz Glanton and gave added him to the "Admin Users " group to give me permissions to change certain things both in domain controller which is ADVM and all other machines. For example, we'll add ClientPC to the domain as well.
+      Here I've create few folders as _EMPLOYEE and etc. After I created new user Tabriz Glanton
+      and gave added him to the "Admin Users " group to give me permissions to change certain
+      things both in domain controller which is ADVM and all other machines. For example, we'll
+      add ClientPC to the domain as well.
     </strong>
   </i>
 </p>
-
-
 
 <p>
   <img
@@ -203,7 +205,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>
   <i>
     <strong>
-      Here I'm joining the ClientPC to the domain and in order to do that we can to sytems -> about -> change this pc name(advanced) and after we can do the steps as shown in the picture.
+      Here I'm joining the ClientPC to the domain and in order to do that we can to sytems ->
+      about -> change this pc name(advanced) and after we can do the steps as shown in the
+      picture.
     </strong>
   </i>
 </p>
@@ -220,14 +224,14 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>
   <i>
     <strong>
-     Here I've logged in ADVM and we can see that the clientPC has been added to domain
+      Here I've logged in ADVM and we can see that the clientPC has been added to domain
     </strong>
   </i>
 </p>
 
 <p>
   <img
-    src="https://github.com/tabrizcyber/images/blob/main/ipconfigAll.PNG"
+    src="https://github.com/tabrizcyber/images/blob/main/addUsersToDomain.PNG"
     height="80%"
     width="80%"
     alt="Disk Sanitization Steps"
@@ -237,24 +241,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>
   <i>
     <strong>
-      Here I'm joining the ClientPC to the domain and in order to do that we can to sytems -> about -> change this pc name(advanced) and after we can do the steps as shown in the picture.
-    </strong>
-  </i>
-</p>
-
-<p>
-  <img
-    src="https://github.com/tabrizcyber/images/blob/main/ipconfigAll.PNG"
-    height="80%"
-    width="80%"
-    alt="Disk Sanitization Steps"
-  />
-</p>
-
-<p>
-  <i>
-    <strong>
-      Here I'm joining the ClientPC to the domain and in order to do that we can to sytems -> about -> change this pc name(advanced) and after we can do the steps as shown in the picture.
+      Here I've logged in ClientPC as Tabriz Glanton the user from "Domain Admins" group, and
+      since the ClientPC has been added to the domain I could log in without any issues, since,
+      admin users can log both to the domain controller machine and other machines who joined
+      domain. However, I also added users to ClientPC, so that anyone who is the user of the
+      domain could log within ClientPC.
     </strong>
   </i>
 </p>
