@@ -154,3 +154,107 @@ This tutorial outlines the post-install configuration of the open-source help de
     </strong>
   </i>
 </p>
+
+<p>
+  <img
+    src="https://github.com/tabrizcyber/images/blob/main/installingAD.PNG"
+    height="80%"
+    width="80%"
+    alt="Disk Sanitization Steps"
+  />
+</p>
+
+<p>
+  <i>
+    <strong>
+      Here I'm installing ad within the network manager, which is straight forward process. We just have to create new forest, and I called mine as a mydomain.com.
+    </strong>
+  </i>
+</p>
+
+<p>
+  <img
+    src="https://github.com/tabrizcyber/images/blob/main/usersAD.PNG"
+    height="80%"
+    width="80%"
+    alt="Disk Sanitization Steps"
+  />
+</p>
+
+<p>
+  <i>
+    <strong>
+      Here I've create few folders as _EMPLOYEE and etc. After I created new user Tabriz Glanton and gave added him to the "Admin Users " group to give me permissions to change certain things both in domain controller which is ADVM and all other machines. For example, we'll add ClientPC to the domain as well.
+    </strong>
+  </i>
+</p>
+
+
+
+<p>
+  <img
+    src="https://github.com/tabrizcyber/images/blob/main/ipconfigAll.PNG"
+    height="80%"
+    width="80%"
+    alt="Disk Sanitization Steps"
+  />
+</p>
+
+<p>
+  <i>
+    <strong>
+      Here I'm joining the ClientPC to the domain and in order to do that we can to sytems -> about -> change this pc name(advanced) and after we can do the steps as shown in the picture.
+    </strong>
+  </i>
+</p>
+
+<p>
+  <img
+    src="https://github.com/tabrizcyber/images/blob/main/joined%20pc.PNG"
+    height="80%"
+    width="80%"
+    alt="Disk Sanitization Steps"
+  />
+</p>
+
+<p>
+  <i>
+    <strong>
+     Here I've logged in ADVM and we can see that the clientPC has been added to domain
+    </strong>
+  </i>
+</p>
+
+<p>
+  <img
+    src="https://github.com/tabrizcyber/images/blob/main/ipconfigAll.PNG"
+    height="80%"
+    width="80%"
+    alt="Disk Sanitization Steps"
+  />
+</p>
+
+<p>
+  <i>
+    <strong>
+      Here I'm joining the ClientPC to the domain and in order to do that we can to sytems -> about -> change this pc name(advanced) and after we can do the steps as shown in the picture.
+    </strong>
+  </i>
+</p>
+
+<p>
+  <img
+    src="https://github.com/tabrizcyber/images/blob/main/ipconfigAll.PNG"
+    height="80%"
+    width="80%"
+    alt="Disk Sanitization Steps"
+  />
+</p>
+
+<p>
+  <i>
+    <strong>
+      Here I'm joining the ClientPC to the domain and in order to do that we can to sytems -> about -> change this pc name(advanced) and after we can do the steps as shown in the picture.
+    </strong>
+  </i>
+</p>
